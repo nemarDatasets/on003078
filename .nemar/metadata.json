@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "PROBE iEEG",
-  "description": "PROBE iEEG is a dataset of intracranial electroencephalography (iEEG) recordings from patients undergoing epilepsy surgery evaluation, accompanied by pre- and post-operative MRI scans. This dataset provides raw electrophysiological data and structural neuroimaging for investigating brain activity patterns and anatomical changes in the context of surgical intervention for epilepsy.",
+  "description": "PROBE iEEG is a dataset of intracranial electroencephalography (iEEG) recordings from patients undergoing epilepsy surgery evaluation, accompanied by pre- and post-operative MRI scans. This dataset provides raw electrophysiological data and structural neuroimaging for investigating brain function and localization of epileptogenic zones using invasive recording techniques.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,10 +24,25 @@
       "term": "MRI"
     },
     {
-      "term": "brain imaging"
+      "term": "brain mapping"
     },
     {
       "term": "electrophysiology"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "seizure localization"
+    },
+    {
+      "term": "presurgical evaluation"
+    },
+    {
+      "term": "epileptogenic zone localization"
+    },
+    {
+      "term": "multimodal neuroimaging"
     }
   ],
   "related_identifiers": [
@@ -73,6 +88,7 @@
     ".md",
     ".nii",
     ".set",
+    ".tsv",
     ".yml"
   ],
   "source_hash": "aa5fad9876db32a34ba366a14f15b1ef95e9c8601f4a4b19c87acb3404202216"
