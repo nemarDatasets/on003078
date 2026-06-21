@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003078",
+  "source": "openneuro",
+  "source_id": "ds003078",
+  "title": "PROBE iEEG",
+  "authors": {
+    "Philippe DOMENECH": {},
+    "Sylvain RHEIMS": {},
+    "Etienne KOECHLIN": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003078.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.0",
+  "recording_modality": [
+    "anat",
+    "ieeg"
+  ],
+  "datatypes": [
+    "anat",
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Research Council Grant ERC-AdG #250106"
+    },
+    {
+      "funder_name": "IHU CESAME program “Investissements d’Avenir” ANR-10-IBHU-0003"
+    }
+  ],
+  "acknowledgements": "We thank Valentin Wyart and Jan Drugowitsch for their help."
+}
