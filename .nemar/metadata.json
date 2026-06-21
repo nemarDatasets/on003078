@@ -1,40 +1,96 @@
 {
   "version": "2.0",
-  "dataset_id": "on003078",
-  "source": "openneuro",
-  "source_id": "ds003078",
+  "pipeline_stage": "enriched",
   "title": "PROBE iEEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Philippe DOMENECH": {},
     "Sylvain RHEIMS": {},
     "Etienne KOECHLIN": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003078.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003078",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003078",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.0",
-  "recording_modality": [
-    "anat",
-    "ieeg"
-  ],
-  "datatypes": [
-    "anat",
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "European Research Council Grant ERC-AdG #250106"
+      "funder_name": "European Research Council",
+      "award_number": "ERC-AdG #250106"
     },
     {
-      "funder_name": "IHU CESAME program “Investissements d’Avenir” ANR-10-IBHU-0003"
+      "funder_name": "Agence Nationale de la Recherche",
+      "award_number": "ANR-10-IBHU-0003",
+      "award_title": "IHU CESAME program Investissements d'Avenir"
     }
   ],
-  "acknowledgements": "We thank Valentin Wyart and Jan Drugowitsch for their help."
+  "modalities": [
+    "anat",
+    "ieeg"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".nii",
+    ".set"
+  ],
+  "description": "PROBE iEEG is a multimodal dataset comprising stereoelectroencephalography (sEEG) intracranial recordings from patients undergoing epilepsy surgery evaluation, along with structural MRI scans acquired before and after surgical intervention. The dataset includes raw electrophysiological data collected during clinical monitoring and structural neuroimaging data suitable for investigating neural dynamics during epilepsy surgery evaluation.",
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "stereoelectroencephalography"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "intracranial recording"
+    },
+    {
+      "term": "MRI"
+    },
+    {
+      "term": "neurosurgery"
+    },
+    {
+      "term": "clinical neurophysiology"
+    },
+    {
+      "term": "surgical planning"
+    },
+    {
+      "term": "seizure localization"
+    },
+    {
+      "term": "epilepsy surgery"
+    },
+    {
+      "term": "multimodal"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "08fe43646ed8bb2e6de40923fe1d5d5daad457a1a417a7a20a0c81e53af63e36"
 }
