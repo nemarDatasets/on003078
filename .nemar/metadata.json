@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PROBE iEEG",
+  "description": "PROBE iEEG is a dataset of intracranial electroencephalography (iEEG) recordings from patients undergoing epilepsy surgery evaluation, accompanied by pre- and post-operative MRI scans. This dataset provides raw electrophysiological data and structural neuroimaging for investigating brain activity patterns and anatomical changes in the context of surgical intervention for epilepsy.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +10,27 @@
     "Sylvain RHEIMS": {},
     "Etienne KOECHLIN": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003078.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "iEEG"
     },
+    {
+      "term": "intracranial electroencephalography"
+    },
+    {
+      "term": "epilepsy surgery"
+    },
+    {
+      "term": "MRI"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003078",
       "identifier_type": "URL",
@@ -24,6 +40,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003078",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003078.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -37,13 +58,13 @@
       "award_title": "IHU CESAME program Investissements d'Avenir"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "ieeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "717.3 MB (86 files)"
   ],
   "formats": [
     ".fdt",
@@ -51,46 +72,8 @@
     ".json",
     ".md",
     ".nii",
-    ".set"
+    ".set",
+    ".yml"
   ],
-  "description": "PROBE iEEG is a multimodal dataset comprising stereoelectroencephalography (sEEG) intracranial recordings from patients undergoing epilepsy surgery evaluation, along with structural MRI scans acquired before and after surgical intervention. The dataset includes raw electrophysiological data collected during clinical monitoring and structural neuroimaging data suitable for investigating neural dynamics during epilepsy surgery evaluation.",
-  "keywords": [
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "stereoelectroencephalography"
-    },
-    {
-      "term": "epilepsy"
-    },
-    {
-      "term": "intracranial recording"
-    },
-    {
-      "term": "MRI"
-    },
-    {
-      "term": "neurosurgery"
-    },
-    {
-      "term": "clinical neurophysiology"
-    },
-    {
-      "term": "surgical planning"
-    },
-    {
-      "term": "seizure localization"
-    },
-    {
-      "term": "epilepsy surgery"
-    },
-    {
-      "term": "multimodal"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "source_hash": "08fe43646ed8bb2e6de40923fe1d5d5daad457a1a417a7a20a0c81e53af63e36"
+  "source_hash": "aa5fad9876db32a34ba366a14f15b1ef95e9c8601f4a4b19c87acb3404202216"
 }
