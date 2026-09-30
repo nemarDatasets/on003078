@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PROBE iEEG",
-  "description": "PROBE iEEG is a dataset of intracranial electroencephalography (iEEG) recordings from patients undergoing epilepsy surgery evaluation, accompanied by pre- and post-operative MRI scans. This dataset provides raw electrophysiological data and structural neuroimaging for investigating brain function and localization of epileptogenic zones using invasive recording techniques.",
+  "description": "Raw intracranial EEG (iEEG) recordings from the PROBE study, collected from patients undergoing stereo-EEG monitoring under the DSI-SEEG protocol. The dataset also includes pre- and post-surgery structural MRI. It supports investigation of human cognitive and decision-making processes using intracranial recordings.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,34 +15,23 @@
       "term": "iEEG"
     },
     {
-      "term": "intracranial electroencephalography"
+      "term": "intracranial EEG"
     },
     {
-      "term": "epilepsy surgery"
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
       "term": "MRI"
     },
     {
-      "term": "brain mapping"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "epilepsy"
-    },
-    {
-      "term": "seizure localization"
-    },
-    {
-      "term": "presurgical evaluation"
-    },
-    {
-      "term": "epileptogenic zone localization"
-    },
-    {
-      "term": "multimodal neuroimaging"
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     }
   ],
   "related_identifiers": [
@@ -52,14 +41,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003078",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003078.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003078",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -68,9 +57,8 @@
       "award_number": "ERC-AdG #250106"
     },
     {
-      "funder_name": "Agence Nationale de la Recherche",
-      "award_number": "ANR-10-IBHU-0003",
-      "award_title": "IHU CESAME program Investissements d'Avenir"
+      "funder_name": "IHU CESAME program Investissements d'Avenir",
+      "award_number": "ANR-10-IBHU-0003"
     }
   ],
   "resource_type_specific": "Structural MRI Dataset",
@@ -79,7 +67,7 @@
     "ieeg"
   ],
   "sizes": [
-    "717.3 MB (86 files)"
+    "684 MB (86 files)"
   ],
   "formats": [
     ".fdt",
